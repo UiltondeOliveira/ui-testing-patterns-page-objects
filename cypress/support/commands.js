@@ -45,22 +45,46 @@ Cypress.Commands.add('login', (user, pass) => {
             cy.setCookie(key, value)
         })
     })
-
     cy.visit('wp-admin')
 })
 
 Cypress.Commands.add('register', (email, pass) => {
+    cy.get('#reg_email').type(email)
+    cy.get('#reg_password').type(pass)
+    cy.get('input.button[value="Register"]').click()
+})
+
+Cypress.Commands.add('addToCart', () => {
     const fd = new FormData()
-    fd.append('email', email)
-    fd.append('password', pass)
-    fd.append('woocommerce-register-nonce', '4f7be03d96')
-    fd.append('_wp_http_referer', `/minha-conta/`)
-    fd.append('register', 'Register')
-    
+    fd.append('attribute_size', 'M')
+    fd.append('attribute_color', 'Blue')
+    fd.append('quantity', 1)
+    fd.append('add-to-cart', 3680)
+    fd.append('product_id', 3680)
+    fd.append('variation_id', 3682)
+
     cy.request({
-        url: '/minha-conta/',
+        url: '/product/atlas-fitness-tank/',
         method: 'POST',
         body: fd
+    }).then(resp => {
+        resp.headers['set-cookie'].forEach(cookie => {
+            const firstPart = cookie.split(';')[0]
+            const divisor = firstPart.indexOf('=')
+            const key = firstPart.substring(0, divisor)
+            const value = firstPart.substring(divisor+1)
+            cy.setCookie(key, value)
+        })
     })
-    cy.visit('minha-conta')
+    cy.visit('/product/atlas-fitness-tank/')
 })
+
+
+Cypress.Commands.add('checkout', () => {
+    cy.visit('/checkout')
+})
+
+Cypress.Commands.add('checkoutOrderRecived', (title) => {
+    cy.get(".page-title").should('have.text', title)
+})
+

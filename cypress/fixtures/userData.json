@@ -1,0 +1,11 @@
+{
+    "firstName": "Fulano",
+    "lastName": "de Tal",
+    "country": "BR",
+    "address": "Rua do Teste",
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "postcode": 50123678,
+    "phone": 11991234567,
+    "email": "teste@mail.com"
+  }
