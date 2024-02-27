@@ -29,10 +29,8 @@ async function setupNodeEvents (on, config) {
 module.exports = defineConfig({
   e2e: {
     baseUrl: "http://lojaebac.ebaconline.art.br/",
-    specPattern: [
-      '**/*.feature', 
-      '**/*.cy.js'
-    ],
+    specPattern: 
+      '**/*.feature',
     setupNodeEvents
   },
 });

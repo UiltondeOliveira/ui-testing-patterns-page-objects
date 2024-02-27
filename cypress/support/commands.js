@@ -48,3 +48,19 @@ Cypress.Commands.add('login', (user, pass) => {
 
     cy.visit('wp-admin')
 })
+
+Cypress.Commands.add('register', (email, pass) => {
+    const fd = new FormData()
+    fd.append('email', email)
+    fd.append('password', pass)
+    fd.append('woocommerce-register-nonce', '4f7be03d96')
+    fd.append('_wp_http_referer', `/minha-conta/`)
+    fd.append('register', 'Register')
+    
+    cy.request({
+        url: '/minha-conta/',
+        method: 'POST',
+        body: fd
+    })
+    cy.visit('minha-conta')
+})
