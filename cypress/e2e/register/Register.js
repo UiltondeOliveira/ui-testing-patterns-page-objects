@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
-const { myAccountPage } = require('../support/pages/index.js')
+const { myAccountPage } = require('../../support/pages/index.js')
 import { faker } from '@faker-js/faker'
 
 const email = faker.internet.email({provider:'test.com'}).toLowerCase()

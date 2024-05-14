@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "products": [
+        {
+            "_id": "663d81f57294efad05afd24a",
+            "categories": [
+                {
+                    "_id": "663d7e967294efad05afd218",
+                    "name": "Shoes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/sandals1-1715306997271.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/sandals2-1715306997273.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Handmade Leather Donddi sandals For Women",
+            "price": 9,
+            "quantity": 9999,
+            "description": "<p>The Upper And Insole Are All Made Of Top Layer Leather, Soft, Flexible And Comfortable, Bohemian style, Hand-Cut, Simple But Colorful, Wearing Your Unique Beauty, Soft Rubber Bottom Let You Not Tired After Walking For A Long Time.</p><p>Details Determine Success Or Failure.</p><p>Color: Yellow/Green/Coffee/Orange/Blue/Red/Beige</p><p>Material: Full grain leather</p><p>Lining: Genuine Leather</p><p>Insole: Genuine Leather</p><p>Sole: Rubber</p><p>Heels: 2.5 cm/0.98\"</p><p>Weight: 0.21kg Each Shoes (measured size 7)&nbsp;</p><p>Fit: Medium to Wide, Runs Normal.</p><p>Origin: Made in China</p><p>Production Time: About&nbsp;7-10 days (Any exceptional case will email you, Please pay attention to your email left)</p><p>Shipping Time: Free Shipping To most locations, delivery time is approximately 5-15 days; We have paid FedEx Option, to most locations, delivery time is approximately 2-8 days.</p><p><br></p><p>Great Shoes To Spice Up Any Outfit, From Casual Jeans To Fancy Dress. The More You Wear Them, The More Comfortable They Will Become!</p><p>Item No. Dwarves1094</p>",
+            "popular": false,
+            "location": "Sergipe, Brasil",
+            "specialPrice": 6,
+            "createdAt": "2024-05-10T02:09:57.807Z",
+            "updatedAt": "2024-05-10T02:09:57.807Z",
+            "__v": 0
+        },
+        {
+            "_id": "663d81357294efad05afd248",
+            "categories": [
+                {
+                    "_id": "663d7e827294efad05afd216",
+                    "name": "Clothes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/eos-3-1715306805499.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/eos-2-1715306805497.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Eos V-Neck Hoodie",
+            "price": 11,
+            "quantity": 9999,
+            "description": "<p>Getting chilly before class starts? Wear the Eos on your way to and from yoga for a cute and cozy warmup piece. Reach for its reliable comfort and enjoy a super-soft blend of fabrics finished in sporty style that includes a hidden kangaroo pocket.</p><p>Semi-fitted.</p><p>Long-Sleeve.</p><p>Machine wash/line dry.</p>",
+            "popular": false,
+            "location": "Paraná, Brasil",
+            "specialPrice": 7,
+            "createdAt": "2024-05-10T02:06:46.037Z",
+            "updatedAt": "2024-05-10T02:06:46.037Z",
+            "__v": 0
+        },
+        {
+            "_id": "663d80f47294efad05afd246",
+            "categories": [
+                {
+                    "_id": "663d7e827294efad05afd216",
+                    "name": "Clothes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/ingrid1-1715306740418.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/ingrid2-1715306740420.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Ingrid Running Jacket",
+            "price": 12,
+            "quantity": 9999,
+            "description": "<p><span style=\"color: rgb(102, 102, 102);\">The Ingrid Running Jacket combines sleek design and high performance with slim, contoured fit and moisture-wicking fabric. It features a full-zip construction and a collared neck to keep the elements out and body heat in.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Slim fit.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Moisture-wicking fabric.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Two side pockets.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Zippered pocket at back waist.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Machine wash/dry.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Ivory specked full zip</span></p>",
+            "popular": true,
+            "location": "Rio de Janeiro, RJ, Brasil",
+            "specialPrice": 9,
+            "createdAt": "2024-05-10T02:05:40.979Z",
+            "updatedAt": "2024-05-10T02:05:40.979Z",
+            "__v": 0
+        },
+        {
+            "_id": "663d80bd7294efad05afd244",
+            "categories": [
+                {
+                    "_id": "663d7e967294efad05afd218",
+                    "name": "Shoes"
+                }
+            ],
+            "photos": [
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/oxford1-1715306685069.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/oxford2-1715306685083.webp",
+                "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/oxford3-1715306685085.webp"
+            ],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Womens Wingtip Shoes Handmade Sheepskin Full Brogues Oxfords & Tie Flats",
+            "price": 10,
+            "quantity": 9999,
+            "description": "<p>This shoes is Narrow Fit.</p><p>Fine Pore Texture, Soft And Comfortable Waxing Sheepskin Upper. Insole And Lining Are All Made Of Top Layer Leather, Soft, Flexible And Comfortable,</p><p>Color: Muti Color1, Muti Color2</p><p>Material: Sheepskin</p><p>Lining: Genuine Leather</p><p>Insole: Genuine Leather (Unmovable）</p><p>Sole: Rubber</p><p>Heels: 2.9 cm/1.14\"</p><p>Weight: 0.28kg Each Shoes (measured size 7)</p><p>Fit: Medium to Wide, Runs Normal.</p><p>Origin: Made in China</p><p>Production Time: About&nbsp;7-10 days (Any exceptional case will email you, Please pay attention to your email left)</p><p>Shipping Time: Free Shipping To most locations, delivery time is approximately 5-15 days; We have paid FedEx Option, to most locations, delivery time is approximately 2-8 days.</p><p><br></p><p>Great Shoes To Spice Up Any Outfit, From Casual Jeans To Fancy Dress. The More You Wear Them, The More Comfortable They Will Become!</p><p>Item No. Dwarves1086</p>",
+            "popular": true,
+            "location": "São Paulo, SP, Brasil",
+            "specialPrice": 8,
+            "createdAt": "2024-05-10T02:04:45.659Z",
+            "updatedAt": "2024-05-10T02:04:45.659Z",
+            "__v": 0
+        }
+    ],
+    "totalProduct": 4
+}

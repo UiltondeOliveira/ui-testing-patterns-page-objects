@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
-const { dashboardPage } = require('../support/pages/index.js')
+const { dashboardPage } = require('../../support/pages/index.js')
 
 Given('I visit EBAC Store', () => {
     cy.visit('/')

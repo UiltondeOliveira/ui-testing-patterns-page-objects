@@ -1,9 +1,9 @@
 /// <reference types="cypress"/>
 
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
-const { checkoutPage } = require('../support/pages/index.js')
-const data = require('../fixtures/data.json')
-const userData = require('../fixtures/userData.json')
+const { checkoutPage } = require('../../support/pages/index.js')
+const data = require('../../fixtures/data.json')
+const userData = require('../../fixtures/userData.json')
 
 Given('I visit EBAC Store products page', () => {
     cy.visit('/produtos')
